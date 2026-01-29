@@ -83,6 +83,8 @@ public class ServiceNowTableAPIClientImpl extends RestAPIClient {
   private final ServiceNowConnectorConfig conf;
   public final SchemaType schemaType;
   public static JsonArray serviceNowJsonResultArray;
+  public static final String Test="tesfkjt";
+
 
   public ServiceNowTableAPIClientImpl(ServiceNowConnectorConfig conf, Boolean useConnection) {
     this.conf = conf;
